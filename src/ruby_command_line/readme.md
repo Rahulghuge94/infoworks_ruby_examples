@@ -9,3 +9,5 @@ use Infoworks ICM/ Infoworks WSPro ruby on command line using simple REPL.
   Terminal -> run build task -> REPL
 ## Exit the terminal
 To exit the termial you can use "exit" function.
+
+### Note: Task.json is running for ICM 9.5. To run WS Pro check the path of IExchange setup and update.
