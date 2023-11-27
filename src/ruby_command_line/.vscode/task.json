@@ -2,12 +2,34 @@
     "version": "2.0.0",    
     "tasks": [
         {
-            "label": "REPL",
+            "label": "REPL ICM",
             "type": "shell",
             "command": "C:/Program Files (x86)/Innovyze/Infoworks ICM 9.5.2/IExchange.exe",
             "args": [
                 "${file}",
                 "/ICM"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "REPL WSPro",
+            "type": "shell",
+            "command": "C:/Program Files (x86)/Innovyze Workgroup Water Supply 2024.0/IExchange.exe",
+            "args": [
+                "${file}",
+                "/WS"
             ],
             "problemMatcher": [],
             "group": {
